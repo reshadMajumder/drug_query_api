@@ -22,4 +22,4 @@ requests==2.31.0  # Used by many libraries including Pinecone and OpenAI
 
 
 
-corsheaders==3.13.0
+django-cors-headers==4.4.0
