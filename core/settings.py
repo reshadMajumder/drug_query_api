@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$95(!&l#+ud5v3t4(ykj$85hxueib6uf-s-e8$@_@d0+62t9o5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -115,6 +115,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://drugfrontendv.vercel.app"
+    "https://drugfrontendv-git-main-reshads-projects-72b5569d.vercel.app"
+    "https://drugfrontend-86jjdlm4i-reshads-projects-72b5569d.vercel.app"
 ]
 
 
