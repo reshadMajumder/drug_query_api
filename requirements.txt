@@ -19,3 +19,7 @@ pandas==2.0.3
 
 # Other dependencies
 requests==2.31.0  # Used by many libraries including Pinecone and OpenAI
+
+
+
+corsheaders==3.13.0
