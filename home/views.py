@@ -1,4 +1,4 @@
-import os
+
 import time
 import pandas as pd
 import torch
@@ -8,6 +8,10 @@ from rest_framework import status
 from pinecone import Pinecone, ServerlessSpec
 from transformers import AutoTokenizer, AutoModel
 from django.conf import settings
+
+import openai
+# pip install openai==0.28
+import torch
 
 # Set your API keys and index name
 api_key = settings.PINECONE_API_KEY
@@ -102,9 +106,7 @@ def upload_to_pinecone(request):
 # ==================chat =====================
 
 
-import openai
-from transformers import AutoTokenizer, AutoModel
-import torch
+
 
 # Set your API keys and index name
 pinecone_api_key = 'c1a5783a-5a44-44b9-8298-5d63bfabae0c'
