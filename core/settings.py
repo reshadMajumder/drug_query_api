@@ -115,9 +115,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://drugfrontendv.vercel.app"
-    "https://drugfrontendv-git-main-reshads-projects-72b5569d.vercel.app"
-    "https://drugfrontend-86jjdlm4i-reshads-projects-72b5569d.vercel.app"
+    "https://drugfrontendv.vercel.app",
+    "https://drugfrontendv-git-main-reshads-projects-72b5569d.vercel.app",
+    "https://drugfrontend-86jjdlm4i-reshads-projects-72b5569d.vercel.app",
 ]
 
 
